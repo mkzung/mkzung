@@ -8,3 +8,20 @@ Currently shipping AI-automation tools for a 120-person construction firm — Py
 
 📍 Russia → Italy (Bocconi MSc INTENT, Aug 2026)
 🔗 [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford profile](https://profiles.stanford.edu/gorbuk) · gorbuk.maxim@gmail.com
+
+---
+
+#### Recent
+
+- **[contract-tracker](https://github.com/mkzung/contract-tracker)** — production email-driven contract-approval tracker for a construction firm. IMAP + RFC-5322 thread reconstruction + OpenAI JSON-mode classifier + Streamlit dashboard. Python, SQLAlchemy, APScheduler, systemd.
+- **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage CLI for crypto perpetuals — Hyperliquid + Orderly + Backpack. Ed25519 + EIP-712 signing.
+
+#### What I work on
+
+- **Data engineering** — ETL/ELT pipelines, schema design, reproducible analysis, validation tooling
+- **Applied AI / LLM workflows** — OpenAI API automation, n8n orchestration, structured-output classifiers, clinical decision support
+- **VC research** — unicorn formation, time-to-unicorn dynamics, founder/team factors
+
+#### Skills
+
+`Python` · `SQL` · `pandas` · `SQLAlchemy` · `Docker` · `Git` · `n8n` · `OpenAI API` · `PostgreSQL` · `IMAP` · `Streamlit`
