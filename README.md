@@ -13,6 +13,7 @@ Currently shipping AI-automation tools for a 120-person construction firm — Py
 
 #### Recent
 
+- **[ethbtc-suspicious-patterns](https://github.com/mkzung/ethbtc-suspicious-patterns)** — six-detector forensic analysis of ETH/BTC market data ([live dashboard](https://mkzung.github.io/ethbtc-suspicious-patterns/) · [PR #24 on 1712n/market-data-challenge](https://github.com/1712n/market-data-challenge/pull/24)). DN Institute Challenge #492 submission for Inca Digital. 99.9994% one-sided buy size with zero price impact + identical-clip burst signature. 46/46 pytest, byte-identical reproducibility, CI on Py 3.10/3.11/3.12.
 - **[contract-tracker](https://github.com/mkzung/contract-tracker)** — production email-driven contract-approval tracker for a construction firm. IMAP + RFC-5322 thread reconstruction + OpenAI JSON-mode classifier + Streamlit dashboard. Python, SQLAlchemy, APScheduler, systemd.
 - **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage CLI for crypto perpetuals — Hyperliquid + Orderly + Backpack. Ed25519 + EIP-712 signing.
 
