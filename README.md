@@ -1,6 +1,8 @@
 ### Hi, I'm Max 👋
 
-Researcher at **Stanford GSB's Venture Capital Initiative** under Prof. Ilya Strebulaev — architected an **AI research-automation pipeline** (Python · n8n · OpenAI API) that compressed per-study processing from **~1 week of manual work to ~10 minutes at ~$0.80/study**; maintain Python pipelines over **PitchBook · WRDS · SDC Platinum** (>2M rows) for the Initiative's **1,500+ unicorn flagship report** (2026 Davos / WEF research package).
+Researcher at **Stanford GSB's Venture Capital Initiative** under Prof. Ilya Strebulaev. **Named contributor (Acknowledgements)** on the published WEF / Stanford GSB Insight Report ["The Future of Venture Capital: Unlocking Liquidity and Growth"](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/) (May 2026, 46 pages) — co-credited alongside Paul Gompers (Harvard), Steven Kaplan (Chicago Booth), and Michael Weisbach (Ohio State).
+
+Architected an **AI research-automation pipeline** (Python · n8n · OpenAI API) that compressed per-study processing from **~1 week of manual work to ~10 minutes at ~$0.80/study**; maintain Python pipelines over **PitchBook · WRDS · SDC Platinum** (>2M rows) for the Initiative's **1,500+ unicorn flagship** analysis (referenced in section 3 of the published WEF report).
 
 Founder of **MedAI** — Rospatent-registered (№2025662413) clinical decision-support system for pediatric vaccination under immunosuppressive therapy. Live in **3 clinics, 25 physicians**; first-week deployment flagged an incorrect vaccine dose, preventing a potential adverse event. Ranked **#57 in Russia's Top-1000 University Startups 2025**.
 
