@@ -8,7 +8,7 @@ Founder of **MedAI** — Rospatent-registered (№2025662413) clinical decision-
 
 Concurrently shipping AI-automation tooling (Python + OpenAI API + n8n) for a 120-person construction firm.
 
-First year MSc INTENT student at Bocconi University.
+Incoming MSc INTENT student at Bocconi University (Milan, Aug 2026 start).
 
 🔗 [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford profile](https://profiles.stanford.edu/gorbuk) · gorbuk@stanford.edu
 
@@ -17,8 +17,13 @@ First year MSc INTENT student at Bocconi University.
 #### Recent
 
 - **[ethbtc-suspicious-patterns](https://github.com/mkzung/ethbtc-suspicious-patterns)** — six-detector forensic analysis of ETH/BTC market data ([live dashboard](https://mkzung.github.io/ethbtc-suspicious-patterns/) · [PR #24 on 1712n/market-data-challenge](https://github.com/1712n/market-data-challenge/pull/24)). DN Institute Challenge #492 submission. **99.9994% one-sided buy size with zero price impact** + identical-clip burst signature 13× across 22h. 46/46 pytest, byte-identical reproducibility, CI on Py 3.10/3.11/3.12.
-- **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage CLI for crypto perpetuals (**Hyperliquid + Orderly + Backpack**); Ed25519 + EIP-712 signing, async venue clients. **Used for live signal generation and execution on personal capital.**
+- **[lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval)** — reproducible refusal-rate evaluation harness for open-weight LLMs. Pluggable HuggingFace + OpenAI + Anthropic adapters, rule-based + LLM-judge, Wilson + Newcombe statistical CIs, provenance schema for byte-identical reruns. **336/336 pytest, mypy --strict, ruff clean.** Motivated by FAR.AI's robustness-scaling work.
+- **[morpho-vault-counterfactuals](https://github.com/mkzung/morpho-vault-counterfactuals)** — counterfactual replay over live Morpho MetaMorpho vaults (Ethereum). Six detectors over the bad-debt frontier with Pydantic-frozen state + nightly cron pulling Steakhouse USDC. 65/65 pytest.
+- **[kamino-vault-counterfactuals](https://github.com/mkzung/kamino-vault-counterfactuals)** — Solana port of the above via Kamino. 95/95 pytest, six detectors, historical replay command, base58-correct synthetic fixtures.
+- **[drift-funding-monitor](https://github.com/mkzung/drift-funding-monitor)** — cross-venue funding-rate monitor (Hyperliquid live; Drift / Orderly / Backpack scaffolded). 97/97 pytest, per-symbol funding-interval discovery, basis-aware drawdown gate.
+- **[solana-vault-thresholds](https://github.com/mkzung/solana-vault-thresholds)** — Anchor 0.30.1 / Rust on-chain program. Sticky-edge breach semantics, immutable audit-trail events, `has_one` account validation, monotonic-slot guard on metric updates.
 - **[contract-tracker](https://github.com/mkzung/contract-tracker)** — production email-driven contract-approval tracker for a construction firm. IMAP + RFC-5322 thread reconstruction + OpenAI JSON-mode classifier + Streamlit dashboard. Python, SQLAlchemy, APScheduler, systemd.
+- **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage research CLI for crypto perpetuals (Hyperliquid + Orderly + Backpack scaffolded); Ed25519 + EIP-712 signing primitives. *Experimental — testnet-only at present.*
 
 #### What I work on
 
