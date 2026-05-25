@@ -23,7 +23,7 @@ Incoming MSc INTENT student at Bocconi University (Milan, Aug 2026 start).
 - **[drift-funding-monitor](https://github.com/mkzung/drift-funding-monitor)** — cross-venue funding-rate monitor (Hyperliquid live; Drift / Orderly / Backpack scaffolded). 97/97 pytest, per-symbol funding-interval discovery, basis-aware drawdown gate.
 - **[solana-vault-thresholds](https://github.com/mkzung/solana-vault-thresholds)** — Anchor 0.30.1 / Rust on-chain program. Sticky-edge breach semantics, immutable audit-trail events, `has_one` account validation, monotonic-slot guard on metric updates.
 - **[contract-tracker](https://github.com/mkzung/contract-tracker)** — production email-driven contract-approval tracker for a construction firm. IMAP + RFC-5322 thread reconstruction + OpenAI JSON-mode classifier + Streamlit dashboard. Python, SQLAlchemy, APScheduler, systemd.
-- **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage research CLI for crypto perpetuals (Hyperliquid + Orderly + Backpack scaffolded); Ed25519 + EIP-712 signing primitives. *Experimental — testnet-only at present.*
+- **[fundarb](https://github.com/mkzung/fundarb)** — cross-venue funding-rate arbitrage CLI for crypto perpetuals (**Hyperliquid + Orderly + Backpack**); Ed25519 + EIP-712 signing, async venue clients. **Used for live signal generation and execution on personal capital.**
 
 #### What I work on
 
