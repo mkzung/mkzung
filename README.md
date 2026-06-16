@@ -8,7 +8,7 @@ Founder of **MedAI** — Rospatent-registered (№2025662413) clinical decision-
 
 Concurrently shipping AI-automation tooling (Python + OpenAI API + n8n) for a 120-person construction firm.
 
-Incoming MSc INTENT student at Bocconi University (Milan, Aug 2026 start).
+Incoming Master in Analytics & Management at London Business School (London, Aug 2026 start).
 
 🔗 [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford profile](https://profiles.stanford.edu/gorbuk) · gorbuk@stanford.edu
 
