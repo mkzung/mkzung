@@ -10,7 +10,7 @@ Concurrently shipping AI-automation tooling (Python + OpenAI API + n8n) for a 12
 
 Incoming Master in Analytics & Management at London Business School (London, Aug 2026 start).
 
-🔗 [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford profile](https://profiles.stanford.edu/gorbuk) · gorbuk@stanford.edu
+🔗 [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford profile](https://profiles.stanford.edu/gorbuk) · [YouTube](https://www.youtube.com/@MaxGorbuk) · gorbuk@stanford.edu
 
 ---
 
