@@ -1,6 +1,8 @@
 ### Max Gorbuk
 
-I work on the gap between the reported number and the real one: fabricated volume, who actually sets a price, what a private valuation headline is worth. Everything below is public and reproducible from committed data.
+I work on the gap between the reported number and the real one: fabricated volume, who actually sets a price, what a private valuation headline is worth.
+
+Nothing ships until a checker can fail it. I mutate my own prose to find the claims nothing guards, and each study prints the arguments that did not survive.
 
 Stanford GSB Venture Capital Initiative (Prof. Ilya Strebulaev). Incoming MSc Analytics & Management, London Business School, Aug 2026.
 
@@ -21,9 +23,11 @@ Stanford GSB Venture Capital Initiative (Prof. Ilya Strebulaev). Incoming MSc An
 - [inspect-evals-do-not-answer](https://github.com/mkzung/inspect-evals-do-not-answer): Do-Not-Answer with an adversarial jailbreak suite, merged into UK AISI's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer) and maintained upstream by me.
 - [lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval): the same measurement, byte-identical across reruns.
 
-Also: [alphaforge](https://github.com/mkzung/alphaforge) (cross-sectional factor backtesting), [morpho-vault-counterfactuals](https://github.com/mkzung/morpho-vault-counterfactuals) (six risk detectors on Morpho vault history), [fundarb](https://github.com/mkzung/fundarb) (funding-rate arbitrage).
+Also: [alphaforge](https://github.com/mkzung/alphaforge) (factor backtesting), [morpho-vault-counterfactuals](https://github.com/mkzung/morpho-vault-counterfactuals) (six risk detectors on Morpho vault history), [fundarb](https://github.com/mkzung/fundarb) (funding-rate arbitrage).
 
-Elsewhere: named contributor on the WEF x Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026), and founder of MedAI, a Rospatent-registered pediatric clinical decision-support system live in 10 clinics.
+Elsewhere: named contributor on the WEF x Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026), and founder of MedAI, Rospatent-registered pediatric clinical decision support, live in 10 clinics.
+
+Off the clock I trace a family line back to a man born around 1770, held to the same evidence rule, which nineteenth-century parish clerks did nothing to make easier.
 
 Python, pandas/Polars, Solana and EVM data, Inspect AI, Rust, C++ where a fix needs it.
 
