@@ -2,11 +2,13 @@
 
 I work on the gap between the reported number and the real one: fabricated volume, who actually sets a price, what a private valuation headline is worth.
 
-Nothing ships until a checker can fail it. I mutate my own prose to find the claims nothing guards, and each study prints the arguments that did not survive.
+Nothing ships until a checker can fail it.
 
-Stanford GSB Venture Capital Initiative (Prof. Ilya Strebulaev). Incoming MSc Analytics & Management, London Business School, Aug 2026.
+Stanford GSB Venture Capital Initiative (Prof. Ilya Strebulaev). MSc Analytics & Management, London Business School, from Aug 2026.
 
-**15 pull requests merged upstream across 8 organisations**: [Apache Arrow](https://github.com/apache/arrow/pull/50475), [Polars](https://github.com/pola-rs/polars/pull/28220), [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged) x3, [freqtrade](https://github.com/freqtrade/freqtrade/pull/13361), [DefiLlama](https://github.com/DefiLlama/DefiLlama-Adapters/pull/19900), UK AI Security Institute's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged) x3, [Nethermind](https://github.com/NethermindEth/execution-payloads-benchmarks/pulls?q=author%3Amkzung+is%3Amerged) x2, [DN Institute](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged) x3.
+38 pull requests merged upstream across 11 organisations, in [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged) x12, [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged) x7, [nautilus_trader](https://github.com/nautechsystems/nautilus_trader/pulls?q=author%3Amkzung+is%3Amerged) x4, UK AI Security Institute's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged) x3 and [inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=author%3Amkzung+is%3Amerged), [DN Institute](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged) x3, [aeon](https://github.com/aeon-toolkit/aeon/pulls?q=author%3Amkzung+is%3Amerged) x2, [Nethermind](https://github.com/NethermindEth/execution-payloads-benchmarks/pulls?q=author%3Amkzung+is%3Amerged) x2, and one each in [Apache Arrow](https://github.com/apache/arrow/pull/50475), [Polars](https://github.com/pola-rs/polars/pull/28220), [freqtrade](https://github.com/freqtrade/freqtrade/pull/13361) and [DefiLlama](https://github.com/DefiLlama/DefiLlama-Adapters/pull/19900).
+
+Mostly the same shape of bug: an invariant the project documents but never checks, a shared test that runs against a registry missing half its classes, or an input degenerate enough that the answer comes back finite and wrong.
 
 #### Market forensics
 
