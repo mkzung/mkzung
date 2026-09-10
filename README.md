@@ -40,11 +40,13 @@ It is usually the same bug. A project writes down a rule and never checks it, or
 a shared test runs against a list that is missing half the classes it should
 cover. Feed it something degenerate and the answer comes back finite and wrong.
 
-I also maintain [Do-Not-Answer with a jailbreak
-suite](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer)
-inside inspect_evals, and keep
-[lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval) byte-identical
-across reruns.
+I wrote the Inspect AI implementation of
+[Do-Not-Answer](https://github.com/mkzung/inspect-evals-do-not-answer), which UK
+AISI's inspect_evals
+[lists](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer),
+with an adversarial suite registered beside it.
+[lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval) measures the same
+thing and re-runs byte-identically from the same seed.
 
 #### Elsewhere
 
