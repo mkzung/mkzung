@@ -34,8 +34,7 @@ day, from SEC filings only. SSRN working paper.
 [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged)
 and the UK AI Security Institute's
 [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged),
-with the rest spread over QuantLib, Apache Arrow, Ethereum, Foundry, statsmodels,
-Polars, DefiLlama and nine more.
+and 15 more organisations.
 
 It is usually the same bug. A project writes down a rule and never checks it, or
 a shared test runs against a list that is missing half the classes it should
