@@ -12,11 +12,12 @@ Prof. Ilya Strebulaev.
 
 [Tokenized stocks](https://github.com/mkzung/xstocks-price-discovery) trade both
 on an exchange and in on-chain pools. The exchange sets the price and the pools
-follow, on 21 of the 23 days I could rank.
+follow, on 21 of the 23 pair-days I could rank across 24 tokens.
 
-[Two chains publish DEX volume](https://github.com/mkzung/dex-volume-integrity)
-that the transfers underneath do not support. Counted from the transfers, not
-from an aggregator. Three more signatures are in the
+Of 73 low-cap pools screened on Base and BNB Chain, [10 flag on wash-trading
+mechanics and 9 are sustained](https://github.com/mkzung/dex-volume-integrity),
+counted from the transfers rather than from an aggregator. Three more
+signatures are in the
 [DN Institute wiki](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged),
 and the same mints, screened on a central book and in Solana pools, are in
 [tokenized-equity-wash-trading](https://github.com/mkzung/tokenized-equity-wash-trading).
@@ -29,7 +30,7 @@ day, from SEC filings only. SSRN working paper.
 
 #### Open source
 
-87 pull requests merged in 18 organisations, most of them in
+89 pull requests merged in 18 organisations, most of them in
 [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged),
 [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged)
 and the UK AI Security Institute's
