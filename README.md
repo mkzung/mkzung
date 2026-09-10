@@ -1,36 +1,60 @@
 ### Max Gorbuk
 
-I work on the gap between the reported number and the real one: fabricated volume, who actually sets a price, what a private valuation headline is worth.
+I check whether published numbers are true. Most of what I find looks fine and is
+not: trading volume that no transfer supports, a price copied from another venue,
+a company valuation that nobody has tested since its last funding round.
 
-Nothing ships until a checker can fail it.
+Studying for the Master in Analytics & Management at London Business School.
+Research Analyst at the Stanford GSB Venture Capital Initiative under
+Prof. Ilya Strebulaev.
 
-Stanford GSB Venture Capital Initiative (Prof. Ilya Strebulaev). MSc Analytics & Management, London Business School, from Aug 2026.
+#### What I found
 
-71 pull requests merged upstream across 16 organisations, in [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged) x24, [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged) x14, [nautilus_trader](https://github.com/nautechsystems/nautilus_trader/pulls?q=author%3Amkzung+is%3Amerged) x5, UK AI Security Institute's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged) x6 and [inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=author%3Amkzung+is%3Amerged), [DN Institute](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged) x3, [aeon](https://github.com/aeon-toolkit/aeon/pulls?q=author%3Amkzung+is%3Amerged) x4, [Nethermind](https://github.com/NethermindEth/execution-payloads-benchmarks/pulls?q=author%3Amkzung+is%3Amerged) x2, [Gymnasium](https://github.com/Farama-Foundation/Gymnasium/pulls?q=author%3Amkzung+is%3Amerged) x3, [QuantLib](https://github.com/lballabio/QuantLib/pulls?q=author%3Amkzung+is%3Amerged) x2, and one each in [Ethereum execution-specs](https://github.com/ethereum/execution-specs/pull/3461), [Foundry](https://github.com/foundry-rs/foundry/pull/16066), [statsmodels](https://github.com/statsmodels/statsmodels/pull/10106), [Apache Arrow](https://github.com/apache/arrow/pull/50475), [Polars](https://github.com/pola-rs/polars/pull/28220), [freqtrade](https://github.com/freqtrade/freqtrade/pull/13361) and [DefiLlama](https://github.com/DefiLlama/DefiLlama-Adapters/pull/19900).
+[Tokenized stocks](https://github.com/mkzung/xstocks-price-discovery) trade both
+on an exchange and in on-chain pools. The exchange sets the price and the pools
+follow, on 21 of the 23 days I could rank.
 
-Mostly the same shape of bug: an invariant the project documents but never checks, a shared test that runs against a registry missing half its classes, or an input degenerate enough that the answer comes back finite and wrong.
+[Two chains publish DEX volume](https://github.com/mkzung/dex-volume-integrity)
+that the transfers underneath do not support. Counted from the transfers, not
+from an aggregator. Three more signatures are in the
+[DN Institute wiki](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged),
+and the same mints, screened on a central book and in Solana pools, are in
+[tokenized-equity-wash-trading](https://github.com/mkzung/tokenized-equity-wash-trading).
 
-#### Market forensics
+Mutual funds have to report a value every month for the private companies they
+hold, even when nothing has traded.
+[unicorn-valuation-disagreement](https://github.com/mkzung/unicorn-valuation-disagreement)
+measures how far apart different managers value the same company on the same
+day, from SEC filings only. SSRN working paper.
 
-- [xstocks-price-discovery](https://github.com/mkzung/xstocks-price-discovery): which venue prices a tokenized stock. The exchange leads 21 of 23 rankable pair-days, and the quieter a pool, the more the exchange prints against it, at a rank correlation of -0.93.
-- [dex-volume-integrity](https://github.com/mkzung/dex-volume-integrity): fabricated volume on Base and BNB Chain, counted from transfers rather than from an aggregator.
-- [tokenized-equity-wash-trading](https://github.com/mkzung/tokenized-equity-wash-trading): the same mints screened on a centralised book and in Solana pools. Three more signatures published in the [DN Institute wiki](https://github.com/1712n/dn-institute/pulls?q=author%3Amkzung+is%3Amerged).
+#### Open source
 
-#### Private-market valuation
+87 pull requests merged in 18 organisations, most of them in
+[ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged),
+[QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged)
+and the UK AI Security Institute's
+[inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged),
+with the rest spread over QuantLib, Apache Arrow, Ethereum, Foundry, statsmodels,
+Polars, DefiLlama and nine more.
 
-- [unicorn-valuation-disagreement](https://github.com/mkzung/unicorn-valuation-disagreement): unicorn marks triangulated against mutual-fund N-PORT filings, public data only. SSRN working paper.
+It is usually the same bug. A project writes down a rule and never checks it, or
+a shared test runs against a list that is missing half the classes it should
+cover. Feed it something degenerate and the answer comes back finite and wrong.
 
-#### LLM evaluation
+I also maintain [Do-Not-Answer with a jailbreak
+suite](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer)
+inside inspect_evals, and keep
+[lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval) byte-identical
+across reruns.
 
-- [inspect-evals-do-not-answer](https://github.com/mkzung/inspect-evals-do-not-answer): Do-Not-Answer with an adversarial jailbreak suite, merged into UK AISI's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer) and maintained upstream by me.
-- [lm-refusal-eval](https://github.com/mkzung/lm-refusal-eval): the same measurement, byte-identical across reruns.
+#### Elsewhere
 
-Also: [alphaforge](https://github.com/mkzung/alphaforge) (factor backtesting), [morpho-vault-counterfactuals](https://github.com/mkzung/morpho-vault-counterfactuals) (six risk detectors on Morpho vault history), [fundarb](https://github.com/mkzung/fundarb) (funding-rate arbitrage).
+Named contributor on the WEF and Stanford GSB report *[The Future of Venture
+Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)*
+(2026). Founded MedAI, Rospatent-registered clinical decision support for
+paediatrics, running in ten clinics.
 
-Elsewhere: named contributor on the WEF x Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026), and founder of MedAI, Rospatent-registered pediatric clinical decision support, live in 10 clinics.
+Python, pandas and Polars, Solana and EVM data, Inspect AI, some Rust and C++.
 
-Off the clock I trace a family line back to a man born around 1770, held to the same evidence rule, which nineteenth-century parish clerks did nothing to make easier.
-
-Python, pandas/Polars, Solana and EVM data, Inspect AI, Rust, C++ where a fix needs it.
-
-[gorbuk.com](https://gorbuk.com) · [LinkedIn](https://linkedin.com/in/gorbuk) · [Stanford](https://profiles.stanford.edu/gorbuk) · gorbuk@stanford.edu
+[gorbuk.com](https://gorbuk.com) · [LinkedIn](https://linkedin.com/in/gorbuk) ·
+[Stanford](https://profiles.stanford.edu/gorbuk) · gorbuk@stanford.edu
