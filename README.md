@@ -30,7 +30,7 @@ day, from SEC filings only. SSRN working paper.
 
 #### Open source
 
-89 pull requests merged in 18 organisations, most of them in
+92 pull requests merged in 18 organisations, most of them in
 [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged),
 [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged)
 and the UK AI Security Institute's
