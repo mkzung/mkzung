@@ -30,12 +30,12 @@ day, from SEC filings only. SSRN working paper.
 
 #### Open source
 
-92 pull requests merged in 18 organisations, most of them in
+93 pull requests merged in 19 organisations, most of them in
 [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged),
 [QuantConnect/Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged)
 and the UK AI Security Institute's
 [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged),
-and 15 more organisations.
+and 16 more organisations.
 
 It is usually the same bug. A project writes down a rule and never checks it, or
 a shared test runs against a list that is missing half the classes it should
