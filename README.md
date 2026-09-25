@@ -38,8 +38,12 @@ Master in Analytics & Management at London Business School. Research analyst at 
 
 I wrote the Inspect AI version of [Do-Not-Answer](https://github.com/mkzung/inspect-evals-do-not-answer), which the UK AI Security Institute's inspect_evals [lists](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer).
 
-#### Elsewhere
+#### Built
 
-Named contributor on the WEF and Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026). Founded MedAI, clinical decision support for paediatrics, running in ten clinics.
+- MedAI: a mobile app that plans vaccinations for children on immunosuppressive therapy, taken from clinician interviews to 10 clinics and 100+ paediatricians. Acquired by MamaDoc in 2026.
+- [research-automation-pipeline](https://github.com/mkzung/research-automation-pipeline): the template behind the Stanford GSB automation that turned a week of per-study work into ten minutes.
+- [fundarb](https://github.com/mkzung/fundarb): a funding-rate arbitrage CLI for crypto perpetuals on Hyperliquid, Orderly and Backpack.
 
-`Python` `pandas` `Polars` `Solana and EVM data` `Inspect AI` `Rust` `C++`
+Named in the acknowledgements of the WEF and Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026).
+
+`Python` `Swift` `SQL` `R` `Polars` `Rust` `C++` `Inspect AI` `OpenAI API` `n8n`
