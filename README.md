@@ -4,10 +4,11 @@
 
 I find what's broken and ship the fix.
 
-[![gorbuk.com](https://img.shields.io/badge/gorbuk.com-0d1117?style=flat-square&logo=googlechrome&logoColor=white)](https://gorbuk.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gorbuk)
-[![Stanford GSB](https://img.shields.io/badge/Stanford_GSB-8c1515?style=flat-square)](https://profiles.stanford.edu/gorbuk)
-[![Email](https://img.shields.io/badge/gorbuk@stanford.edu-555?style=flat-square&logo=gmail&logoColor=white)](mailto:gorbuk@stanford.edu)
+[![gorbuk.com](https://img.shields.io/badge/gorbuk.com-ffffff?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWYyMzI4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1IDE1IDAgMCAxIDAgMjBhMTUgMTUgMCAwIDEgMC0yMCIvPjwvc3ZnPg%3D%3D)](https://gorbuk.com#gh-dark-mode-only)
+[![gorbuk.com](https://img.shields.io/badge/gorbuk.com-3d444d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPHBhdGggZD0iTTIgMTJoMjAiLz48cGF0aCBkPSJNMTIgMmExNSAxNSAwIDAgMSAwIDIwYTE1IDE1IDAgMCAxIDAtMjAiLz48L3N2Zz4%3D)](https://gorbuk.com#gh-light-mode-only)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge)](https://linkedin.com/in/gorbuk)
+[![Stanford GSB](https://img.shields.io/badge/Stanford_GSB-8c1515?style=for-the-badge)](https://profiles.stanford.edu/gorbuk)
+[![Email](https://img.shields.io/badge/gorbuk@stanford.edu-6e7781?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgcng9IjIiLz48cGF0aCBkPSJNMjIgNkwxMiAxM0wyIDYiLz48L3N2Zz4%3D)](mailto:gorbuk@stanford.edu)
 
 </div>
 
