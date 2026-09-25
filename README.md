@@ -21,7 +21,7 @@ Master in Analytics & Management at London Business School. Research analyst at 
 
 #### Open source
 
-100+ pull requests merged in 20+ projects, most of them in [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged), [QuantConnect Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged) and [QuantLib](https://github.com/lballabio/QuantLib/pulls?q=author%3Amkzung+is%3Amerged). The bug is usually the same. A project writes down a rule and never checks it, and a degenerate input comes back finite and wrong.
+100+ pull requests merged in 20+ organizations, most of them in [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged), [QuantConnect Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged) and [QuantLib](https://github.com/lballabio/QuantLib/pulls?q=author%3Amkzung+is%3Amerged). The bug is usually the same. A project writes down a rule and never checks it, and a degenerate input comes back finite and wrong.
 
 <p>
 <a href="https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/ccxt.png?size=80" width="36" height="36" alt="ccxt" title="ccxt"></a>&nbsp;
@@ -40,10 +40,10 @@ I wrote the Inspect AI version of [Do-Not-Answer](https://github.com/mkzung/insp
 
 #### Built
 
-- MedAI: a mobile app that plans vaccinations for children on immunosuppressive therapy, taken from clinician interviews to 10 clinics and 100+ paediatricians. Acquired by MamaDoc in 2026.
+- MedAI: a mobile app that plans vaccinations for children on immunosuppressive therapy, taken from clinician interviews to 10 clinics and 100+ pediatricians. Acquired by MamaDoc in 2026.
 - [research-automation-pipeline](https://github.com/mkzung/research-automation-pipeline): the template behind the Stanford GSB automation that turned a week of per-study work into ten minutes.
 - [fundarb](https://github.com/mkzung/fundarb): a funding-rate arbitrage CLI for crypto perpetuals on Hyperliquid, Orderly and Backpack.
 
 Named in the acknowledgements of the WEF and Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026).
 
-`Python` `Swift` `SQL` `R` `Polars` `Rust` `C++` `Inspect AI` `OpenAI API` `n8n`
+`AI-native` `Python` `Swift` `SQL` `R` `Polars` `Rust` `C++` `Inspect AI` `OpenAI API` `n8n`
