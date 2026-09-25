@@ -2,7 +2,7 @@
 
 ## Max Gorbuk
 
-I check whether published numbers are true.
+I find what's broken and ship the fix.
 
 [![gorbuk.com](https://img.shields.io/badge/gorbuk.com-0d1117?style=flat-square&logo=googlechrome&logoColor=white)](https://gorbuk.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gorbuk)
