@@ -46,4 +46,6 @@ I wrote the Inspect AI version of [Do-Not-Answer](https://github.com/mkzung/insp
 
 Named in the acknowledgements of the WEF and Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026).
 
-`AI-native` `Python` `Swift` `SQL` `R` `Polars` `Rust` `C++` `Inspect AI` `OpenAI API` `n8n`
+`Python` `Swift` `C++` `Rust` `SQL` `R` `Polars` `reverse engineering`
+
+`AI-native` `Claude` `OpenAI API` `local LLMs` `Inspect AI` `n8n`
