@@ -1,52 +1,19 @@
-<div align="center">
+# Max Gorbuk
 
-## Max Gorbuk
+AI engineer and founder. Research at [Stanford GSB VCI](https://profiles.stanford.edu/gorbuk), MSc at London Business School.
 
-I find what's broken and ship the fix.
+I build AI tools and the checks that keep them useful. At Stanford, my research automation cut per-study processing from a week to ten minutes.
 
-[![gorbuk.com](https://img.shields.io/badge/gorbuk.com-ffffff?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWYyMzI4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1IDE1IDAgMCAxIDAgMjBhMTUgMTUgMCAwIDEgMC0yMCIvPjwvc3ZnPg%3D%3D)](https://gorbuk.com#gh-dark-mode-only)
-[![gorbuk.com](https://img.shields.io/badge/gorbuk.com-3d444d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPHBhdGggZD0iTTIgMTJoMjAiLz48cGF0aCBkPSJNMTIgMmExNSAxNSAwIDAgMSAwIDIwYTE1IDE1IDAgMCAxIDAtMjAiLz48L3N2Zz4%3D)](https://gorbuk.com#gh-light-mode-only)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge)](https://linkedin.com/in/gorbuk)
-[![Stanford GSB](https://img.shields.io/badge/Stanford_GSB-8c1515?style=for-the-badge)](https://profiles.stanford.edu/gorbuk)
-[![Email](https://img.shields.io/badge/gorbuk@stanford.edu-6e7781?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgcng9IjIiLz48cGF0aCBkPSJNMjIgNkwxMiAxM0wyIDYiLz48L3N2Zz4%3D)](mailto:gorbuk@stanford.edu)
+Founded MedAI, clinical decision-support software used across ten clinics, acquired by MamaDoc in 2026. Now building [PrepKoi](https://prepkoi.com), with AI feedback on language-exam speaking and writing.
 
-</div>
+### Open source
 
-Master in Analytics & Management at London Business School. Research analyst at the Stanford GSB Venture Capital Initiative with Prof. Ilya Strebulaev. I look for numbers that seem fine and are not: volume no transfer supports, a price copied from another venue, a valuation nobody has tested since the last round.
+100+ merged pull requests, including [ccxt](https://github.com/ccxt/ccxt/pulls?q=is%3Apr+is%3Amerged+author%3Amkzung), [QuantConnect Lean](https://github.com/QuantConnect/Lean/pulls?q=is%3Apr+is%3Amerged+author%3Amkzung), [QuantLib](https://github.com/lballabio/QuantLib/pulls?q=is%3Apr+is%3Amerged+author%3Amkzung), [NautilusTrader](https://github.com/nautechsystems/nautilus_trader/pulls?q=is%3Apr+is%3Amerged+author%3Amkzung) and [Apache Arrow](https://github.com/apache/arrow/pulls?q=is%3Apr+is%3Amerged+author%3Amkzung).
 
-#### Research
+### Selected work
 
-- [unicorn-valuation-disagreement](https://github.com/mkzung/unicorn-valuation-disagreement): how far apart mutual funds value the same private company on the same day, from SEC filings alone. SSRN working paper.
-- [xstocks-price-discovery](https://github.com/mkzung/xstocks-price-discovery): for tokenized stocks the exchange sets the price and the on-chain pools follow.
-- [dex-volume-integrity](https://github.com/mkzung/dex-volume-integrity): wash trading in low-cap pools on Base and BNB Chain, counted from the transfers rather than from an aggregator.
+- [Do-Not-Answer](https://github.com/mkzung/inspect-evals-do-not-answer): an LLM safeguard evaluation with adversarial tests. Listed as an external evaluation in the UK AI Security Institute's [inspect_evals](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer).
+- [Filing analyst](https://github.com/mkzung/langgraph-filing-analyst): a LangGraph agent that checks extracted figures against source quotes and pauses for human review.
+- [Disagreement Without a Price](https://github.com/mkzung/unicorn-valuation-disagreement): my research on how mutual funds value the same private companies differently, using public SEC filings.
 
-#### Open source
-
-100+ pull requests merged in 20+ organizations, most of them in [ccxt](https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged), [QuantConnect Lean](https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged) and [QuantLib](https://github.com/lballabio/QuantLib/pulls?q=author%3Amkzung+is%3Amerged). The bug is usually the same. A project writes down a rule and never checks it, and a degenerate input comes back finite and wrong.
-
-<p>
-<a href="https://github.com/ccxt/ccxt/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/ccxt.png?size=80" width="36" height="36" alt="ccxt" title="ccxt"></a>&nbsp;
-<a href="https://github.com/QuantConnect/Lean/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/QuantConnect.png?size=80" width="36" height="36" alt="QuantConnect Lean" title="QuantConnect Lean"></a>&nbsp;
-<a href="https://github.com/UKGovernmentBEIS/inspect_evals/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/UKGovernmentBEIS.png?size=80" width="36" height="36" alt="UK AI Security Institute" title="UK AI Security Institute, inspect_evals"></a>&nbsp;
-<a href="https://github.com/nautechsystems/nautilus_trader/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/nautechsystems.png?size=80" width="36" height="36" alt="NautilusTrader" title="NautilusTrader"></a>&nbsp;
-<a href="https://github.com/DefiLlama/dimension-adapters/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/DefiLlama.png?size=80" width="36" height="36" alt="DefiLlama" title="DefiLlama"></a>&nbsp;
-<a href="https://github.com/aeon-toolkit/aeon/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/aeon-toolkit.png?size=80" width="36" height="36" alt="aeon" title="aeon"></a>&nbsp;
-<a href="https://github.com/apache/arrow/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/apache.png?size=80" width="36" height="36" alt="Apache Arrow" title="Apache Arrow"></a>&nbsp;
-<a href="https://github.com/pola-rs/polars/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/pola-rs.png?size=80" width="36" height="36" alt="Polars" title="Polars"></a>&nbsp;
-<a href="https://github.com/ethereum/execution-specs/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/ethereum.png?size=80" width="36" height="36" alt="Ethereum" title="Ethereum execution-specs"></a>&nbsp;
-<a href="https://github.com/foundry-rs/foundry/pulls?q=author%3Amkzung+is%3Amerged"><img src="https://github.com/foundry-rs.png?size=80" width="36" height="36" alt="Foundry" title="Foundry"></a>
-</p>
-
-I wrote the Inspect AI version of [Do-Not-Answer](https://github.com/mkzung/inspect-evals-do-not-answer), which the UK AI Security Institute's inspect_evals [lists](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/register/do_not_answer).
-
-#### Built
-
-- MedAI: a mobile app that plans vaccinations for children on immunosuppressive therapy, taken from clinician interviews to 10 clinics and 100+ pediatricians. Acquired by MamaDoc in 2026.
-- [research-automation-pipeline](https://github.com/mkzung/research-automation-pipeline): the template behind the Stanford GSB automation that turned a week of per-study work into ten minutes.
-- [fundarb](https://github.com/mkzung/fundarb): a funding-rate arbitrage CLI for crypto perpetuals on Hyperliquid, Orderly and Backpack.
-
-Named in the acknowledgements of the WEF and Stanford GSB report *[The Future of Venture Capital](https://www.weforum.org/publications/the-future-of-venture-capital-unlocking-liquidity-and-growth/)* (2026).
-
-`Python` `Swift` `C++` `Rust` `SQL` `R` `Polars` `reverse engineering`
-
-`AI-native` `Claude` `OpenAI API` `local LLMs` `Inspect AI` `n8n`
+[Website](https://gorbuk.com) · [LinkedIn](https://linkedin.com/in/gorbuk) · [CV](https://gorbuk.com/cv.pdf?v=20261107)
